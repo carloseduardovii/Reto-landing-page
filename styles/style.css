@@ -1,5 +1,134 @@
+:root{
+    /* Primary colors */
+    --main-color: hsl(322, 100%, 66%); /* Pink */
+    --main-color: hsl(321, 100%, 78%); /* Ligth Pink */
+    --main-color: hsl(0, 100%, 63%); /* Ligth Red */
+
+    /* Neutral colors */
+    --main-color: hsl(192, 100%, 9%); /* Very Dark Cyan */
+    --main-color: hsl(207, 100%, 98%); /* Very Pale Blue */
+}
+
 *{
     margin: o;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background: hsl(207, 100%, 98%);
+}
+body p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color:hsl(192, 100%, 9%);
+}
+
+/*SECTION 1*/
+.build-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+
+section>div img{
+    width: 110px;
+    height: 20px;
+}
+
+
+.btn-try{
+    border-radius: 20px;
+    width: 90px;
+    height: 25px;
+    border-color: hsl(321, 100%, 78%);
+    color: hsl(321, 100%, 78%);
+    background-color: transparent;
+    font-size: 10px;
+}
+
+.paragraph{
+    text-align: center;
+    /* font-family: 'Poppins', sans-serif;
+    margin: 20px;     */
+}
+.paragraph h2{
+    font-weight: 700;
+    margin-top: 80px;
+    padding: 30px;
+    color: hsl(192, 100%, 9%);
+}
+.paragraph p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color:hsl(192, 100%, 9%);
+   
+}
+.paragraph button{
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-color: hsl(322, 100%, 66%);;
+    margin-top: 50px;
+}
+
+.screen-imagin{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+section>img{
+    width: 20rem;
+
+}
+
+/*SECTION 2*/
+#container2{
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+#container2>div img{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+}
+#container2>div h1{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    color:hsl(192, 100%, 9%);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#container2>div p{
+    text-align: center;
+    color: dimgray;
+   
+}
+#container2>div .messages{
+    margin-top: 80px;
+}
+
+/*SECTION 3*/
+#container3{
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+#container3>img{
+    justify-content: center;
+    
+  
+}
+/* #container3>div .ilustration{
+    margin-top: 30px;
+} */
