@@ -15,9 +15,7 @@
     box-sizing: border-box;
 }
 
-body{
-    background: hsl(207, 100%, 98%);
-}
+
 body p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -49,8 +47,7 @@ section>div img{
 
 .paragraph{
     text-align: center;
-    /* font-family: 'Poppins', sans-serif;
-    margin: 20px;     */
+
 }
 .paragraph h2{
     font-weight: 700;
@@ -91,6 +88,7 @@ section>img{
     align-items: center;
     justify-content: center;
     margin-top: 100px;
+    margin-bottom: 100px;
     
 }
 #container2>div img{
@@ -102,33 +100,117 @@ section>img{
     font-size: 60px;
     font-family: 'Poppins', sans-serif;
     color:hsl(192, 100%, 9%);
-    margin-top: 0;
-    margin-bottom: 0;
+    
 }
 #container2>div p{
     text-align: center;
     color: dimgray;
    
 }
-#container2>div .messages{
+/* #container2>div .messages{
     margin-top: 80px;
-}
+} */
 
 /*SECTION 3*/
 #container3{
     display: flex;
     padding: 3rem;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 50px;
+     
 }
 
+.top-mobile1{
+   
+}
 
-#container3>img{
-    justify-content: center;
-    
+#container3 img{
+    height: auto;
+    width: 260px; 
+    align-items: center;
+    margin-bottom: 50px;
   
 }
-/* #container3>div .ilustration{
+
+#container3>div .grow~h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color:hsl(192, 100%, 9%);
+    font-weight: 600;
+}   
+.botton-mobile1{
+    
+}
+
+/* SECTION 4 */
+#container4{
+    display: flex;
+    padding: 3rem;
+    text-align: center;
+    font-weight: 400;
+     
+}
+#container4 img{
+    height: auto;
+    width: 260px; 
     margin-top: 30px;
-} */
+    align-items: center;
+    margin-bottom: 80px;
+}
+#container4>div .flowing~h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color:hsl(192, 100%, 9%);
+    font-weight: 600;
+}
+
+/* SECTION 5 */
+#container5{
+    display: flex;
+    padding: 3rem;
+    text-align: center;
+    font-weight: 400;
+     
+}
+#container5 img{
+    height: auto;
+    width: 260px; 
+    margin-top: 30px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+#container5>div .your-users~h3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color:hsl(192, 100%, 9%);
+    font-weight: 600;
+}
+
+/* Ready To Build Your Community? */
+.question-to{
+    text-align: center;
+
+}
+.question-to h2{
+    font-weight: 700;
+    margin-top: 80px;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+}
+
+.question-to button{
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-color: hsl(322, 100%, 66%);;
+    margin-top: 10px;
+    margin-bottom: 200px;
+}
+
+section>img{
+    
+}
