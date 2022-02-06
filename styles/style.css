@@ -1,32 +1,32 @@
-:root{
-    /* Primary colors */
-    --main-color: hsl(322, 100%, 66%); /* Pink */
-    --main-color: hsl(321, 100%, 78%); /* Ligth Pink */
-    --main-color: hsl(0, 100%, 63%); /* Ligth Red */
+/* :root{
+ 
+    --main-color: hsl(322, 100%, 66%);
+    --main-color: hsl(321, 100%, 78%);
+    --main-color: hsl(0, 100%, 63%); 
 
-    /* Neutral colors */
-    --main-color: hsl(192, 100%, 9%); /* Very Dark Cyan */
-    --main-color: hsl(207, 100%, 98%); /* Very Pale Blue */
-}
+
+    --main-color: hsl(192, 100%, 9%); 
+    --main-color: hsl(207, 100%, 98%); 
+} */
 
 *{
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 body p{
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     color:hsl(192, 100%, 9%);
+    padding: 30px;
 }
 
 /*SECTION 1*/
 .build-section{
     display: flex;
     justify-content: space-between;
-    padding: 1.2rem;
+    padding: 1.6rem;
 }
 
 section>div img{
@@ -53,20 +53,19 @@ section>div img{
     font-weight: 700;
     margin-top: 80px;
     padding: 30px;
+    font-family: 'Poppins', sans-serif;
     color: hsl(192, 100%, 9%);
+    font-weight: 800;
+    
 }
-.paragraph p{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    color:hsl(192, 100%, 9%);
-   
-}
+
 .paragraph button{
     border-radius: 30px;
     width: 200px;
     height: 40px;
     background-color: hsl(322, 100%, 66%);
     color: white;
+    font-weight: 600;
     border-color: hsl(322, 100%, 66%);;
     margin-top: 50px;
 }
@@ -84,13 +83,11 @@ section>img{
 /*SECTION 2*/
 #container2{
     display: flex;
-    padding: 3rem;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    
+    margin-top: 10px;
 }
+
 #container2>div img{
     width: 30px;
     height: 30px;
@@ -107,23 +104,21 @@ section>img{
     color: dimgray;
    
 }
-/* #container2>div .messages{
+#container2>div .messages{
     margin-top: 80px;
-} */
+    
+}
 
 /*SECTION 3*/
 #container3{
     display: flex;
-    padding: 3rem;
     text-align: center;
     font-weight: 400;
+    margin-top: 100px;
     margin-bottom: 50px;
      
 }
 
-.top-mobile1{
-   
-}
 
 #container3 img{
     height: auto;
@@ -137,16 +132,14 @@ section>img{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color:hsl(192, 100%, 9%);
-    font-weight: 600;
+    font-weight: 800;
+    margin-bottom: 5px;
 }   
-.botton-mobile1{
-    
-}
+
 
 /* SECTION 4 */
 #container4{
     display: flex;
-    padding: 3rem;
     text-align: center;
     font-weight: 400;
      
@@ -162,13 +155,13 @@ section>img{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color:hsl(192, 100%, 9%);
-    font-weight: 600;
+    font-weight: 800;
+    margin-bottom: 5px;
 }
 
 /* SECTION 5 */
 #container5{
     display: flex;
-    padding: 3rem;
     text-align: center;
     font-weight: 400;
      
@@ -184,7 +177,8 @@ section>img{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color:hsl(192, 100%, 9%);
-    font-weight: 600;
+    font-weight: 800;
+    margin-bottom: 5px;
 }
 
 /* Ready To Build Your Community? */
@@ -198,6 +192,8 @@ section>img{
     padding: 30px;
     font-family: 'Poppins', sans-serif;
     color: hsl(192, 100%, 9%);
+    font-weight: 800;
+    
 }
 
 .question-to button{
@@ -206,11 +202,82 @@ section>img{
     height: 40px;
     background-color: hsl(322, 100%, 66%);
     color: white;
+    font-weight: 600;
     border-color: hsl(322, 100%, 66%);;
     margin-top: 10px;
     margin-bottom: 200px;
 }
 
-section>img{
+body>img{
+    margin 0;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    /* background-image: url("../reto-landing-equipo-enero/images/bg-footer-top-mobile.svg"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(192, 100%, 9%);
+    margin-top: -5px;
+    }
+
+footer>section h3{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    margin-bottom: -10px;
     
 }
+
+.control{
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: 300px;
+    border-radius: 8px;
+    align-content: center;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+
+footer>section p~button{
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: 400;
+    border-color: hsl(322, 100%, 66%);;
+    margin-left: 50%;
+    margin-bottom: 50px;
+   
+}
+.btn-subscribe{
+    justify-content: end;
+    display: flex;
+}
+
+footer p{
+    padding: 30px;
+    color: white;
+    font-weight: 400;
+    font-size: small;
+
+}
+
+#social-networks .phone-img{
+    width: auto;
+    vertical-align: middle;
+}
+
+#social-networks .email-img{
+    width: auto;
+    vertical-align: middle;
+}
+
+
+
+
