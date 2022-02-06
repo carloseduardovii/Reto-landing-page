@@ -54,6 +54,7 @@ section>div img{
     margin-top: 80px;
     padding: 30px;
     color: hsl(192, 100%, 9%);
+    font-family: Poppins;
 }
 .paragraph p{
     font-family: 'Open Sans', sans-serif;
@@ -117,7 +118,7 @@ section>img{
     padding: 3rem;
     text-align: center;
     font-weight: 400;
-    margin-bottom: 50px;
+    height: 100%;
      
 }
 
@@ -133,6 +134,7 @@ section>img{
   
 }
 
+
 #container3>div .grow~h3{
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -142,6 +144,11 @@ section>img{
 .botton-mobile1{
     
 }
+
+.bckgrn-color{
+    background-color: #f6fbff;
+}
+
 
 /* SECTION 4 */
 #container4{
@@ -212,5 +219,27 @@ section>img{
 }
 
 section>img{
+    width: 100%;
+    
+}
+
+#container6{
+    background-color: #00252e;
+}
+
+#container6>h3{
+    z-index: auto;
+    margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .screen-imagin>img {
+        width: 70%;
+    }
+
+    #container2 {
+        display: inline-block;
+        
+    }
     
 }
