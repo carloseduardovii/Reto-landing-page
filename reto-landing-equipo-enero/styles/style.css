@@ -10,7 +10,7 @@
 }
 
 *{
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -60,12 +60,14 @@ section>div img{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color:hsl(192, 100%, 9%);
+    padding: 1rem;
    
 }
 .paragraph button{
     border-radius: 30px;
     width: 200px;
     height: 40px;
+    font-family: 'Open sans';
     background-color: hsl(322, 100%, 66%);
     color: white;
     border-color: hsl(322, 100%, 66%);;
@@ -74,26 +76,18 @@ section>div img{
 
 .screen-imagin{
     display: flex;
-    justify-content: center;
-    margin-top: 100px;
+    margin: 6rem 3rem 0rem 3rem;
+    width: 80%;
 }
 section>img{
-    width: 20rem;
+    width: 100%;
     display: block;
 
 }
 
 /*SECTION 2*/
 #container2{
-    padding: 3rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
-
-#container2>div{
-    width: 40%;
-    text-align: center;
-    margin: 40% 0% 0% 30%;
+    padding: 7rem 7rem 0rem 7rem;
 }
 
 #container2>div img{
@@ -104,17 +98,22 @@ section>img{
 #container2>div h1{
     font-size: 60px;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
     color:hsl(192, 100%, 9%);  
 }
 
 #container2>div p{
-    color: dimgray;
+    text-align: center;
+    color: dimgrey;
+    margin-bottom: 5rem;
 } 
 
 /*SECTION 3*/
 #container3{
     display: flex;
     text-align: center;
+    padding: 3rem;
     font-weight: 400;
     height: 100%;
      
@@ -192,7 +191,7 @@ section>img{
 #container5>div .your-users~h3{
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    color:hsl(192, 100%, 9%);
+    color:#00252e;
     font-weight: 600;
 }
 
@@ -237,14 +236,65 @@ section>img{
 /* SECTION 6 */
 #container6{
     background-color: #00252e;
+
 }
 #container6>h3 {
-    margin-top: 0%;
+    margin: 0%;
+    padding: 4rem 0rem 1.8rem 1rem;
+    align-content: center;
+    color: #f6fbff;
+    font-family: 'Poppins';
 }
 
-#container6>p{
-text-decoration: dimgray;
+#container6>p {
+color: #f6fbff;
+font-family: 'Open Sans';
+font-size: 1rem;
+line-height: 1.8em;
+padding: 0rem 1rem 0rem 1rem;
 }
+
+#container6>div {
+    text-align: center;
+}
+
+#container6>div>input {
+width: 20rem;
+height: 2.8rem;
+border-radius: 0.5rem;
+margin-top: 2rem;
+}
+
+#container6>img {
+width: 12rem;
+height: 2rem;
+margin: 5rem 0rem 1rem 1.8rem;
+filter: invert(150%) sepia(32%) saturate(3948%) hue-rotate(180deg) brightness(500%) contrast(107%);
+}
+
+#container6>p>img {
+    width: 1.5rem;
+    margin-right: .8rem;
+    margin-top: 1rem;
+}
+
+i {
+    font-size: 2rem;
+    padding: 2rem 0rem 4rem 1.8rem;
+}
+
+.btn-subscribe{
+    border-radius: 0.5rem;
+    width: 10rem;
+    height: 2.8rem;
+    border-color: hsl(321, 100%, 68%);
+    background-color: hsl(321, 100%, 68%);
+    color:#f6fbff;
+    font-family: 'open sans';
+    margin-top: .6rem;
+    margin-left: 10rem;
+}
+
 
 @media screen and (min-width: 768px) {
     .screen-imagin>img {
