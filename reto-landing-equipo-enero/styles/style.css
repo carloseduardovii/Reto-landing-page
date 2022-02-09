@@ -315,7 +315,52 @@ i {
     }
     
     .middle{
+    display: flex;
+    width: 100%;
+    justify-content: center;
     margin: 4rem 0rem 0rem 0rem;
+    }
 
+    .paragraph>h2 {
+        padding: 0rem 3rem 0rem 3rem;
+    }
+
+    .paragraph>p{
+        padding: 2rem 15rem 0rem 15rem;
+        font-size: .9rem;
+    }
+    .paragraph>button {
+        margin-top: 2rem;
+    }
+
+    .d-flex{
+        display: flex; 
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        font-family: "Open sans";   
+        font-weight: bolder;
+    }
+
+   .d-flexr{
+        display: flex; 
+        flex-direction: row-reverse;
+        align-items: center;
+        text-align: left;
+        font-family: "Open sans";   
+        font-weight: bolder;
+    }
+    
+    #container3 img {
+        width: 50%;
+
+    }
+
+    #container4 img {
+        width: 50%;
+    }
+
+    #container5 img {
+        width: 50%;
     }
 }
