@@ -75,7 +75,6 @@ section>div img{
 }
 
 .screen-imagin{
-    display: flex;
     margin: 6rem 3rem 0rem 3rem;
     width: 80%;
 }
@@ -111,7 +110,6 @@ section>img{
 
 /*SECTION 3*/
 #container3{
-    display: flex;
     text-align: center;
     padding: 3rem;
     font-weight: 400;
@@ -153,7 +151,6 @@ section>img{
 
 /* SECTION 4 */
 #container4{
-    display: flex;
     padding: 3rem;
     text-align: center;
     font-weight: 400;
@@ -298,7 +295,7 @@ i {
 
 @media screen and (min-width: 768px) {
     .screen-imagin>img {
-        width: 70%;
+        width: 80%;
     }
 
     #container2{
@@ -317,4 +314,8 @@ i {
         font-size: 5rem;
     }
     
+    .middle{
+    margin: 4rem 0rem 0rem 0rem;
+
+    }
 }
